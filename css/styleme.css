@@ -13,3 +13,62 @@ h1 {
     background-color: gray;
     text-align: center;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: yellow;
+}
+.myDescription::first-letter{
+    font-size: 35px;
+    /* background-color: tomato;
+    border: 2px solid blue; */
+    padding: 5px;
+   margin-right: 5px;
+   float: left;
+   font-weight: bold;
+
+}
+.detail_movie {
+    color: orange;
+    font-weight: bold;
+}
+.detail_movie >span {
+    color: white;
+    display: block;
+    margin-left: 50px;
+}
+.comedy {
+    color: orange;
+    font-weight: bold;
+}
+.comedy >span {
+    color: white;
+    display: block;
+    margin-left: 50px;
+}
+.Tagline {
+    color: orange;
+    font-weight: bold;
+}
+.Tagline >span {
+    color: white;
+    display: block;
+    margin-left: 50px;
+}
+
+.PlotOutline {
+    color: orange;
+    font-weight: bold;
+}
+.PlotOutline >span {
+    color: white;
+    display: block;
+    margin-left: 50px;
+}
+
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
