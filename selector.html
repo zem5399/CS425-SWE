@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slector</title>
+    <style>
+        #lastPara::first-line {
+            font-weight: bold;
+            
+        }
+        #lastPara::first-letter {
+            font-size: 2em;
+            border: 1px solid blue;
+            background-color: red;
+            /* display: block; */
+            float: left;
+            padding: 3px;
+            margin-right: 4px;
+        }
+
+        p:hover {
+            color: green;
+        }
+      
+        h4 {
+            background-color: blue;
+            color: white;
+        }
+        h4 > p {
+           background-color: gray;
+        }
+    
+         div p{
+           background-color: red;
+       }
+       div >p{
+           background-color: yellow;
+       }
+       #firsttPara{
+           color: darkmagenta;
+       }
+    .redElement {
+        background-image: url("abcd.jpg");
+        background-repeat: no-repeat;
+        background-position: 370px 10px;
+           border-radius: 4pc;
+            color: red;
+        }
+        .bgBlue {
+            background-color: blue;
+        }
+        /* p {
+            background-image: url("abcd.jpg");
+            text-indent: 100px;
+            word-spacing: 30px;
+            line-height: 30px;
+            text-align: center;
+            text-decoration: underline;
+            text-shadow: -2px 5px gray;
+            font-size: bold;
+            font-weight: 2em;
+            font-style: italic;
+        border: rgb(49, 95, 91);
+        background-color: blanchedalmond;
+       } 
+     */
+     
+     
+    </style>
+</head>
+<body>
+    <h3>selectors</h3>
+    <p id="firstPara">this is a simple line of abced </p>
+    <p id="secondPara">this  is <a href="2">2</a>  simple line of abced </p>
+    <p>this is <a href="https://www.google.com/">Google</a> link to search </p>
+    <p id="4thPara" class="redElement bgBlue">this is 4 simple line of abced </p>
+    <div>
+        <p>this is 5h simple line of abced </p>
+       
+    </div>
+
+    <!-- <img src="abcd.jpg" alt="load error"> -->
+
+    <div>
+        <p>i am all alone</p>
+        <p>you are </p>
+        <section>
+            <p>they are</p>
+        </section>
+       
+    </div>
+
+    <p>askldfjlsdjfl</p>
+
+    <h4>
+        <p>my name is khan</p>
+        <p>ajdlksjf</p>
+        <p>sadhflsjdflsjdlf</p>
+    </h4>
+
+    <p class="redColor blueColor">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus itaque impedit eaque illo dolore aliquid sapiente vitae facere assumenda, magni omnis. Similique voluptate dignissimos dolores consectetur nisi libero eaque sit!
+    </p>
+
+
+    <p id="lastPara">This is my very important paragraph.
+        I am a distinguished gentleman of such renown that my paragraph
+        needs to be styled in a manner befitting my majesty. Bow before 
+       my splendour, dear students, and go forth and learn CSS!</p>
+</body>
+</html>
