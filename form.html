@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" method="get">
+    <h4 class="title">workshop Registation</h4>
+    <div id="container">
+        <div class="small_container">
+           <div>
+               <label for="firstname">First Name</label>
+               <input id="firstname" name= "firstname" type="text">
+           </div>
+           <div>
+                <label for="lastname">Last Name</label>
+                <input id="lastname" name= "lastname" type="text">
+            </div>
+            <div>
+                <label for="company">Company/Institution</label>
+                <input id="company" name= "company" type="text">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address" id="address" cols="20" rows="10"></textarea> 
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input id="city" name= "city" type="text">
+            </div>
+            <div>
+                <label for="state">state/province/Region</label>
+                <select name="state" id="state">
+                    <option>fairfield</option>
+                    <option >Iowa</option>
+                    <option selected>select</option>
+                </select>
+            </div> 
+       
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option>pakistan</option>
+                    <option >USA</option>
+                    <option >Canada</option>
+                    <option selected>select</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="phonenumber">Phone Number</label>
+                <input type="text" name="phonenumber" id="phonenumber">
+            </div>
+        </div>
+       <div class="small_container">
+
+      
+        <div>
+            <label for="mealpreference">Meal Preference</label>
+            <select name="mealpreference" id="mealpreference">
+                <option>chicken</option>
+                <option >salad</option>
+                <option >Vegetarian</option>
+                <option selected>Vegetarian</option>
+            </select>
+        </div>
+
+      
+            <label for="paymentmode">Payment Mode</label>
+            <div>
+                <input type="checkbox" name="cash" id="cash">
+                <label for="cash">cash</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="cheque" id="cheque">
+                <label for="cheque">Cheque</label>
+            </div>
+            <div>
+                <input type="checkbox" name="demanddraft" id="demanddraft">
+                <label for="demanddraft">Demand Draft</label>
+            </div>
+
+            <div>
+                <label for="ddcheque">DD/Cheque No.</label>
+                <input id="ddcheque" name= "ddcheque" type="text">
+            </div>
+            <div>
+                <label for="drawnon">Drawn On(Bank Name)</label>
+                <input id="drawnon" name= "drawnon" type="text">
+            </div>
+
+            <div>
+                <label for="payableat">Payable at</label>
+                <input id="payableat" name= "payableat" type="text">
+            </div>
+        </div>
+    </div>
+    <div class="bottoms">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+</form>
+</body>
+</html>

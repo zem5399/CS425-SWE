@@ -1,0 +1,40 @@
+body {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title {
+    text-align: center;
+    background: #afd3bc;
+    padding: 1em;
+}
+.small_container {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.small_container label{
+    width: 40%;
+    display: inline-block;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    vertical-align: top;
+    font-weight: bold;
+}
+.small_container textarea {
+    width: 36%;
+}
+.small_container >div {
+    margin-top: 10px;
+}
+.bottoms {
+    text-align: center;
+    background: gray;
+    padding: 1em;
+    margin-top: 20px;
+}
